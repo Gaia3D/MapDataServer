@@ -16,7 +16,7 @@ Main Feature
 
 Based technologies
 -----------------------
-* GeoServer
+* [GeoServer](http://geoserver.org/)
 * Apache Wicket
 * GeoServer REST API
 * Spring

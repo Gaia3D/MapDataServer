@@ -7,6 +7,7 @@ public class MainPage extends GeoServerBasePage {
 
 	public MainPage() {
 		add( new Label( "hellolabel", "Layer Catalog") );
+		// 테스트
 	}
 	
 }

@@ -4,7 +4,10 @@
     <bean id="mdsCatalogPage" class="org.geoserver.web.MenuPageInfo">
       <property name="id" value="mdsCatalogPage"/>
       <property name="titleKey" value="mdsCatalogPage.page.title"/>
+      <property name="icon" value="photo.png"/>
       <property name="descriptionKey" value="mdsCatalogPage.page.description"/>
       <property name="componentClass" value="com.gaia3d.mds.catalog.MainPage"/>
+      <property name="category" ref="dataCategory"/>
+      <property name="order" value="6"></property>
     </bean>
 </beans>
